@@ -1,0 +1,16 @@
+{
+  "playlists": [
+    {
+      "id": "PL00rmG2oN8AgEXs5VSwbOM_ZnIEFFqcvt",
+      "icon": "https://raw.githubusercontent.com/feathericons/feather/master/icons/film.svg",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
+    {
+      "id": "PL00rmG2oN8Ai0L3Esut97CEbhIappAekn",
+      "icon": "https://raw.githubusercontent.com/feathericons/feather/master/icons/music.svg",
+      "iconType": "image",
+      "fallback": "🎧"
+    }
+  ]
+}
