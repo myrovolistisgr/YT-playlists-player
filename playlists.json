@@ -1,8 +1,14 @@
 {
   "playlists": [
 
-     
-    
+    {
+      "_comment": "από σούρουπο σε χάραμα",
+      "id": "PL00rmG2oN8AjnEDGjA1tjWtfw8ObjdVNS",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/from%20dusk%20at%20dawn.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
+        
     {
       "_comment": "ο κοκκινογένης κλέφτης",
       "id": "PL00rmG2oN8Ah6jxKLjLJvskTJ93fuRO3x",
@@ -44,6 +50,7 @@
   ]
 
 }
+
 
 
 
