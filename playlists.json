@@ -1,5 +1,23 @@
 {
   "playlists": [
+
+     
+    
+    {
+      "_comment": "ο κοκκινογένης κλέφτης",
+      "id": "PL00rmG2oN8Ah6jxKLjLJvskTJ93fuRO3x",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/redhead.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
+    
+    {
+      "_comment": "ο κοκκινογένης ψεύτης",
+      "id": "PL00rmG2oN8AgM1m1FCGZRTIVim5QL-tUO",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/redhead.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
     
     {
       "_comment": "the redhead liar",
@@ -26,6 +44,7 @@
   ]
 
 }
+
 
 
 
