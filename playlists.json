@@ -1,5 +1,14 @@
 {
   "playlists": [
+    
+    {
+      "_comment": "the redhead liar",
+      "id": "PL00rmG2oN8AimdEYXWWGh-V0tYUfBR4nr",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/redhead.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
+    
     {
       "_comment": "με το φύσημα του αέρα",
       "id": "PL00rmG2oN8AgEXs5VSwbOM_ZnIEFFqcvt",
@@ -17,5 +26,6 @@
   ]
 
 }
+
 
 
