@@ -10,10 +10,11 @@
     {
       "_comment": "του γραμμόφωνου τραγούδια",
       "id": "PL00rmG2oN8Ai0L3Esut97CEbhIappAekn",
-      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tou-grammophonou-tragoudia.png",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tou%20grammophonou%20tragoudia.png",
       "iconType": "image",
       "fallback": "🎧"
     }
   ]
 
 }
+
