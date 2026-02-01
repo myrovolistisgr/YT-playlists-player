@@ -1,16 +1,19 @@
 {
   "playlists": [
     {
+      "_comment": "με το φύσημα του αέρα",
       "id": "PL00rmG2oN8AgEXs5VSwbOM_ZnIEFFqcvt",
       "icon": "https://raw.githubusercontent.com/feathericons/feather/master/icons/film.svg",
       "iconType": "image",
       "fallback": "🎬"
     },
     {
+      "_comment": "του γραμμόφωνου τραγούδια",
       "id": "PL00rmG2oN8Ai0L3Esut97CEbhIappAekn",
-      "icon": "https://raw.githubusercontent.com/feathericons/feather/master/icons/music.svg",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tou-grammophonou-tragoudia.png",
       "iconType": "image",
       "fallback": "🎧"
     }
   ]
+
 }
