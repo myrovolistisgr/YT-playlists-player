@@ -2,6 +2,23 @@
   "playlists": [
 
 
+
+    {
+      "_comment": "tea time",
+      "id": "PL00rmG2oN8Ah4cUe3QARhPUpSrp6GWmq_",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tea%20time.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    }, 
+    
+    {
+      "_comment": "Magna Grecia",
+      "id": "PL00rmG2oN8AgkeRu_3MlwKCuRgUg8Zp3w",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/magna%20grecia.jpg",
+      "iconType": "image",
+      "fallback": "🎬"
+    }, 
+
     {
       "_comment": "ο έρωτας με ρυθμούς rock",
       "id": "PL064P49tIm79RliK_gRBkeImScqwhod15",
@@ -147,6 +164,7 @@
   ]
 
 }
+
 
 
 
