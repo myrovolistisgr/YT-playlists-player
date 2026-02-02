@@ -1,7 +1,24 @@
 {
   "playlists": [
 
-   {
+
+    {
+      "_comment": "μουσικές του κόσμου (tape 1)",
+      "id": "PL00rmG2oN8AgLyVNiOxJ73pFH-woR3u6v",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/mousikes%20tou%20kosmou%201.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    }, 
+    
+    {
+      "_comment": "Oldiesς",
+      "id": "PL00rmG2oN8Ai6xn8ST0ZrPoVt1Yaz48Gb",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/oldies.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    }, 
+    
+    {
       "_comment": "οι πελάδες",
       "id": "PL00rmG2oN8AioqMrs0Bn2bJ9oMej-q07C",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/pelada.JPG",
@@ -66,6 +83,7 @@
   ]
 
 }
+
 
 
 
