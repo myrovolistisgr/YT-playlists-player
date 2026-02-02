@@ -3,6 +3,32 @@
 
 
 
+     {
+       "_comment": "μουσικές του κόσμου (tape 2)",
+       "id": "PL00rmG2oN8AhlqNmhyczwOkTFB27cVT7D",
+       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/mousikes%20tou%20kosmou%202.JPG",
+       "iconType": "image",
+       "fallback": "🎬"
+    },
+
+     
+     {
+       "_comment": "December songs",
+       "id": "PL00rmG2oN8AgQh0v2hB3fFY4buAb5yQVD",
+       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/december%20songs.jpg",
+       "iconType": "image",
+       "fallback": "🎬"
+    },
+
+    {
+       "_comment": "if only you knew...",
+       "id": "PL00rmG2oN8AhP9ue2gN4R6f6MJ0T4MAjQ",
+       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/if%20only%20you%20knew.JPG",
+       "iconType": "image",
+       "fallback": "🎬"
+    },
+
+
     {
        "_comment": "in the country",
        "id": "PL00rmG2oN8Aj3W862eU309_fPKZPkX1o3",
@@ -222,6 +248,7 @@
   ]
 
 }
+
 
 
 
