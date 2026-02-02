@@ -3,6 +3,30 @@
 
 
 
+      {
+       "_comment": "Τραγούδια για τον Αύγουστο",
+       "id": "PL00rmG2oN8AhQW5YlaTYtwIH5VOKA2Ii7",
+       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tragoudia%20gia%20ton%20Aygousto.JPG",
+       "iconType": "image",
+       "fallback": "🎬"
+    },
+    
+     {
+       "_comment": "November songs",
+       "id": "PL00rmG2oN8Ai482V_BRmdfPiIp29_6H2f",
+       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/november%20songs.jpg",
+       "iconType": "image",
+       "fallback": "🎬"
+    },
+
+     {
+       "_comment": "ανεμελιά σε καραντίνα",
+       "id": "PL00rmG2oN8AgzcmvHlo0CSUMS3u40ryxT",
+       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/anemelia%20se%20karantina.JPG",
+       "iconType": "image",
+       "fallback": "🎬"
+    },
+
      {
        "_comment": "μουσικές του κόσμου (tape 2)",
        "id": "PL00rmG2oN8AhlqNmhyczwOkTFB27cVT7D",
@@ -248,6 +272,7 @@
   ]
 
 }
+
 
 
 
