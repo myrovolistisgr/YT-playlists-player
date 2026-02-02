@@ -3,6 +3,30 @@
 
 
     {
+      "_comment": "ο έρωτας με ρυθμούς rock",
+      "id": "PL064P49tIm79RliK_gRBkeImScqwhod15",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/o%20erotas%20se%20rythmous%20rock.jpg",
+      "iconType": "image",
+      "fallback": "🎬"
+    }, 
+    
+    {
+      "_comment": "βρέχει ακόμα...",
+      "id": "PL064P49tIm78_E-dkK5PBrvEEMFC5d5m-",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/vrexei%20akoma.jpg",
+      "iconType": "image",
+      "fallback": "🎬"
+    }, 
+    
+    {
+      "_comment": "Tango, Gypsy and More",
+      "id": "PL00rmG2oN8Ag6enwCeI1Iy4738xesOX5w",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tango,%20gipsy%20and%20more.jpg",
+      "iconType": "image",
+      "fallback": "🎬"
+    }, 
+    
+    {
       "_comment": "lovers in the wind",
       "id": "PL00rmG2oN8Ag9ZtlNMGZqlYIqpb2LArvw",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/lovers%20in%20the%20wind.jpg",
@@ -123,6 +147,7 @@
   ]
 
 }
+
 
 
 
