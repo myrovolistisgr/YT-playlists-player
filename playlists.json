@@ -3,7 +3,16 @@
 
 
 
-      {
+
+    {
+       "_comment": "Τραγούδια για τον Ιούλιο",
+       "id": "PL00rmG2oN8Ajl-6-kWnoF9_sScQahWey0",
+       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tragoudia%20gia%20ton%20Ioulio.JPG",
+       "iconType": "image",
+       "fallback": "🎬"
+    },
+
+    {
        "_comment": "Τραγούδια για τον Αύγουστο",
        "id": "PL00rmG2oN8AhQW5YlaTYtwIH5VOKA2Ii7",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tragoudia%20gia%20ton%20Aygousto.JPG",
@@ -11,7 +20,7 @@
        "fallback": "🎬"
     },
     
-     {
+    {
        "_comment": "November songs",
        "id": "PL00rmG2oN8Ai482V_BRmdfPiIp29_6H2f",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/november%20songs.jpg",
@@ -19,7 +28,7 @@
        "fallback": "🎬"
     },
 
-     {
+    {
        "_comment": "ανεμελιά σε καραντίνα",
        "id": "PL00rmG2oN8AgzcmvHlo0CSUMS3u40ryxT",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/anemelia%20se%20karantina.JPG",
@@ -272,6 +281,7 @@
   ]
 
 }
+
 
 
 
