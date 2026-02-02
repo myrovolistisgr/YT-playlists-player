@@ -3,22 +3,15 @@
 
 
 
-      {
-      "_comment": "take away : on, off, on, off....",
-      "id": "PL00rmG2oN8AjtJkb7FhQzxX64JVg8tJ6J",
-      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/take%20away%20.jpg",
-      "iconType": "image",
-      "fallback": "🎬"
-     },
-
-      {
-       "_comment": "reflection",
-       "id": "PL00rmG2oN8Ah94OuEw0cgO_dwGoeCA4P8",
-       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/reflection.JPG",
+    {
+       "_comment": "take away : on, off, on, off....",
+       "id": "PL00rmG2oN8AjtJkb7FhQzxX64JVg8tJ6J",
+       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/take%20away%20.jpg",
        "iconType": "image",
        "fallback": "🎬"
-     },
+    },
 
+   
     {
        "_comment": "reflection",
        "id": "PL00rmG2oN8Ah94OuEw0cgO_dwGoeCA4P8",
@@ -205,6 +198,7 @@
   ]
 
 }
+
 
 
 
