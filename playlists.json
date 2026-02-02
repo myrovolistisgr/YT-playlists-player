@@ -3,6 +3,15 @@
 
 
 
+    
+    
+    {
+       "_comment": "Τραγούδια για τον Ιούνιο",
+       "id": "PL00rmG2oN8Aj4Tg53wtuRy6nHOnfnIRIs",
+       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tragoudia%20gia%20ton%20Iounio.JPG",
+       "iconType": "image",
+       "fallback": "🎬"
+    },
 
     {
        "_comment": "Τραγούδια για τον Ιούλιο",
@@ -281,6 +290,7 @@
   ]
 
 }
+
 
 
 
