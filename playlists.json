@@ -3,6 +3,22 @@
 
 
     {
+      "_comment": "metamorphosis",
+      "id": "PLSRDGXudTSm-diMH_IkP9u9pOtl3osS34",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/metamorfosis.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    }, 
+    
+    {
+      "_comment": "take it easy",
+      "id": "PL00rmG2oN8Ag39lNSouPmS1tX8gPovv1l",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/take%20it%20easy.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    }, 
+    
+    {
       "_comment": "in the hostel",
       "id": "PL00rmG2oN8AiYqHbpMelwrgdgc-9dem0S",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/in%20the%20hostel.JPG",
@@ -99,6 +115,7 @@
   ]
 
 }
+
 
 
 
