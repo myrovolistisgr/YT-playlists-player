@@ -1,6 +1,22 @@
 {
   "playlists": [
 
+   {
+      "_comment": "οι πελάδες",
+      "id": "PL00rmG2oN8AioqMrs0Bn2bJ9oMej-q07C",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/pelada.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    }, 
+    
+    {
+      "_comment": "Η σαρμανίτσα",
+      "id": "PL00rmG2oN8AgvxfUriSlowu_9HjNdVy2j",
+      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/sarmanitsa.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
+    
     {
       "_comment": "από σούρουπο σε χάραμα",
       "id": "PL00rmG2oN8AjnEDGjA1tjWtfw8ObjdVNS",
@@ -50,6 +66,7 @@
   ]
 
 }
+
 
 
 
