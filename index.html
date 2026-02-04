@@ -715,39 +715,34 @@ async function initializePlayer() {
     }
     
     function loadPlaylistFromYouTube(playlistId) {
-      const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${YOUTUBE_API_KEY}`;
-      fetch(url )
+    const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${YOUTUBE_API_KEY}`;
+    fetch(url )
         .then(response => response.json())
         .then(data => {
-          currentPlaylist = (data.items && data.items.length > 0)
-            ? data.items.map(item => ({
+            currentPlaylist = (data.items && data.items.length > 0) ? data.items.map(item => ({
                 title: item.snippet.title,
                 videoId: item.snippet.resourceId.videoId,
                 thumbnail: item.snippet.thumbnails?.medium?.url || item.snippet.thumbnails?.default?.url || ''
-              }))
-            : [];
-          
-          currentVideoIndex = 0;
-          renderSongsList();
-          updatePlaylistHeader();
-          
-          if (youtubePlayer && youtubePlayer.loadVideoById) {
-            if (currentPlaylist.length > 0) {
-                youtubePlayer.loadVideoById(currentPlaylist[0].videoId);
-                youtubePlayer.stopVideo();
-            } else {
-                youtubePlayer.stopVideo();
-                youtubePlayer.clearVideo();
+            })) : [];
+            currentVideoIndex = 0;
+            renderSongsList();
+            updatePlaylistHeader();
+            if (youtubePlayer && youtubePlayer.cueVideoById) { // Changed from loadVideoById
+                if (currentPlaylist.length > 0) {
+                    youtubePlayer.cueVideoById(currentPlaylist[0].videoId); // Changed from loadVideoById
+                } else {
+                    youtubePlayer.stopVideo();
+                    youtubePlayer.clearVideo();
+                }
             }
-          }
         })
         .catch(error => {
-          console.error('Σφάλμα φόρτωσης playlist:', error);
-          currentPlaylist = [];
-          renderSongsList();
-          updatePlaylistHeader();
+            console.error('Σφάλμα φόρτωσης playlist:', error);
+            currentPlaylist = [];
+            renderSongsList();
+            updatePlaylistHeader();
         });
-    }
+}
     
     function updatePlaylistHeader() {
       const countElement = document.getElementById('current-playlist-count');
