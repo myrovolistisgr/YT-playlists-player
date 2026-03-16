@@ -6,7 +6,7 @@
     
     
     {
-       "_comment": "Τραγούδια για τον Ιούνιο",
+       "name": "Τραγούδια για τον Ιούνιο",
        "id": "PL00rmG2oN8Aj4Tg53wtuRy6nHOnfnIRIs",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tragoudia%20gia%20ton%20Iounio.JPG",
        "iconType": "image",
@@ -14,7 +14,7 @@
     },
 
     {
-       "_comment": "Τραγούδια για τον Ιούλιο",
+       "name": "Τραγούδια για τον Ιούλιο",
        "id": "PL00rmG2oN8Ajl-6-kWnoF9_sScQahWey0",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tragoudia%20gia%20ton%20Ioulio.JPG",
        "iconType": "image",
@@ -22,7 +22,7 @@
     },
 
     {
-       "_comment": "Τραγούδια για τον Αύγουστο",
+       "name": "Τραγούδια για τον Αύγουστο",
        "id": "PL00rmG2oN8AhQW5YlaTYtwIH5VOKA2Ii7",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tragoudia%20gia%20ton%20Aygousto.JPG",
        "iconType": "image",
@@ -30,7 +30,7 @@
     },
     
     {
-       "_comment": "November songs",
+       "name": "November songs",
        "id": "PL00rmG2oN8Ai482V_BRmdfPiIp29_6H2f",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/november%20songs.jpg",
        "iconType": "image",
@@ -38,7 +38,7 @@
     },
 
     {
-       "_comment": "ανεμελιά σε καραντίνα",
+       "name": "ανεμελιά σε καραντίνα",
        "id": "PL00rmG2oN8AgzcmvHlo0CSUMS3u40ryxT",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/anemelia%20se%20karantina.JPG",
        "iconType": "image",
@@ -46,7 +46,7 @@
     },
 
      {
-       "_comment": "μουσικές του κόσμου (tape 2)",
+       "name": "μουσικές του κόσμου (tape 2)",
        "id": "PL00rmG2oN8AhlqNmhyczwOkTFB27cVT7D",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/mousikes%20tou%20kosmou%202.JPG",
        "iconType": "image",
@@ -55,7 +55,7 @@
 
      
      {
-       "_comment": "December songs",
+       "name": "December songs",
        "id": "PL00rmG2oN8AgQh0v2hB3fFY4buAb5yQVD",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/december%20songs.jpg",
        "iconType": "image",
@@ -63,7 +63,7 @@
     },
 
     {
-       "_comment": "if only you knew...",
+       "name": "if only you knew...",
        "id": "PL00rmG2oN8AhP9ue2gN4R6f6MJ0T4MAjQ",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/if%20only%20you%20knew.JPG",
        "iconType": "image",
@@ -72,7 +72,7 @@
 
 
     {
-       "_comment": "in the country",
+       "name": "in the country",
        "id": "PL00rmG2oN8Aj3W862eU309_fPKZPkX1o3",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/in%20the%20country.JPG",
        "iconType": "image",
@@ -80,7 +80,7 @@
     },
 
     {
-       "_comment": "για καφέ στα χαλαρά",
+       "name": "για καφέ στα χαλαρά",
        "id": "PL00rmG2oN8AiSUdibdDra1sXcG4D54F8A",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/gia%20kafe%20sta%20xalara.JPG",
        "iconType": "image",
@@ -88,7 +88,7 @@
     },
 
     {
-       "_comment": "ελληνικά και φρέσκα (αρχές 2021)",
+       "name": "ελληνικά και φρέσκα (αρχές 2021)",
        "id": "PL00rmG2oN8AhlGWU1VCt7BAbzWpg5bPg2",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/ellinika%20kai%20freska.JPG",
        "iconType": "image",
@@ -96,7 +96,7 @@
     },
 
     {
-       "_comment": "take away : on, off, on, off....",
+       "name": "take away : on, off, on, off....",
        "id": "PL00rmG2oN8AjtJkb7FhQzxX64JVg8tJ6J",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/take%20away%20.jpg",
        "iconType": "image",
@@ -105,7 +105,7 @@
 
    
     {
-       "_comment": "reflection",
+       "name": "reflection",
        "id": "PL00rmG2oN8Ah94OuEw0cgO_dwGoeCA4P8",
        "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/reflection.JPG",
        "iconType": "image",
@@ -114,7 +114,7 @@
 
 
     {
-      "_comment": "virtual reality",
+      "name": "virtual reality",
       "id": "PL00rmG2oN8Aj_VymzdkxYfM3qLbR1bkIt",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/virtual%20reality.JPG",
       "iconType": "image",
@@ -122,7 +122,7 @@
     },
 
     {
-      "_comment": "Smoker's dream",
+      "name": "Smoker's dream",
       "id": "PL00rmG2oN8AjKZXMJ1DdN-gB6CdReo3gu",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/smoker_s%20dream.JPG",
       "iconType": "image",
@@ -130,7 +130,7 @@
     },
 
     {
-      "_comment": "tea time",
+      "name": "tea time",
       "id": "PL00rmG2oN8Ah4cUe3QARhPUpSrp6GWmq_",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tea%20time.JPG",
       "iconType": "image",
@@ -138,7 +138,7 @@
     }, 
     
     {
-      "_comment": "Magna Grecia",
+      "name": "Magna Grecia",
       "id": "PL00rmG2oN8AgkeRu_3MlwKCuRgUg8Zp3w",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/magna%20grecia.jpg",
       "iconType": "image",
@@ -146,7 +146,7 @@
     }, 
 
     {
-      "_comment": "ο έρωτας με ρυθμούς rock",
+      "name": "ο έρωτας με ρυθμούς rock",
       "id": "PL064P49tIm79RliK_gRBkeImScqwhod15",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/o%20erotas%20se%20rythmous%20rock.jpg",
       "iconType": "image",
@@ -154,7 +154,7 @@
     }, 
     
     {
-      "_comment": "βρέχει ακόμα...",
+      "name": "βρέχει ακόμα...",
       "id": "PL064P49tIm78_E-dkK5PBrvEEMFC5d5m-",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/vrexei%20akoma.jpg",
       "iconType": "image",
@@ -162,7 +162,7 @@
     }, 
     
     {
-      "_comment": "Tango, Gypsy and More",
+      "name": "Tango, Gypsy and More",
       "id": "PL00rmG2oN8Ag6enwCeI1Iy4738xesOX5w",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tango,%20gipsy%20and%20more.jpg",
       "iconType": "image",
@@ -170,7 +170,7 @@
     }, 
     
     {
-      "_comment": "lovers in the wind",
+      "name": "lovers in the wind",
       "id": "PL00rmG2oN8Ag9ZtlNMGZqlYIqpb2LArvw",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/lovers%20in%20the%20wind.jpg",
       "iconType": "image",
@@ -178,7 +178,7 @@
     }, 
     
     {
-      "_comment": "metamorphosis",
+      "name": "metamorphosis",
       "id": "PLSRDGXudTSm-diMH_IkP9u9pOtl3osS34",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/metamorfosis.JPG",
       "iconType": "image",
@@ -186,7 +186,7 @@
     }, 
     
     {
-      "_comment": "take it easy",
+      "name": "take it easy",
       "id": "PL00rmG2oN8Ag39lNSouPmS1tX8gPovv1l",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/take%20it%20easy.JPG",
       "iconType": "image",
@@ -194,7 +194,7 @@
     }, 
     
     {
-      "_comment": "in the hostel",
+      "name": "in the hostel",
       "id": "PL00rmG2oN8AiYqHbpMelwrgdgc-9dem0S",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/in%20the%20hostel.JPG",
       "iconType": "image",
@@ -202,7 +202,7 @@
     }, 
     
     {
-      "_comment": "κάποια χρόνια πριν...",
+      "name": "κάποια χρόνια πριν...",
       "id": "PL00rmG2oN8Ah-mbeYamgxLYFh634Bdclu",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/kapoia%20xronia%20prin.JPG",
       "iconType": "image",
@@ -210,7 +210,7 @@
     }, 
     
     {
-      "_comment": "μουσικές του κόσμου (tape 1)",
+      "name": "μουσικές του κόσμου (tape 1)",
       "id": "PL00rmG2oN8AgLyVNiOxJ73pFH-woR3u6v",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/mousikes%20tou%20kosmou%201.JPG",
       "iconType": "image",
@@ -218,7 +218,7 @@
     }, 
     
     {
-      "_comment": "Oldiesς",
+      "name": "Oldiesς",
       "id": "PL00rmG2oN8Ai6xn8ST0ZrPoVt1Yaz48Gb",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/oldies.JPG",
       "iconType": "image",
@@ -226,7 +226,7 @@
     }, 
     
     {
-      "_comment": "οι πελάδες",
+      "name": "οι πελάδες",
       "id": "PL00rmG2oN8AioqMrs0Bn2bJ9oMej-q07C",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/pelada.JPG",
       "iconType": "image",
@@ -234,7 +234,7 @@
     }, 
     
     {
-      "_comment": "Η σαρμανίτσα",
+      "name": "Η σαρμανίτσα",
       "id": "PL00rmG2oN8AgvxfUriSlowu_9HjNdVy2j",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/sarmanitsa.JPG",
       "iconType": "image",
@@ -242,7 +242,7 @@
     },
     
     {
-      "_comment": "από σούρουπο σε χάραμα",
+      "name": "από σούρουπο σε χάραμα",
       "id": "PL00rmG2oN8AjnEDGjA1tjWtfw8ObjdVNS",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/from%20dusk%20at%20dawn.JPG",
       "iconType": "image",
@@ -250,7 +250,7 @@
     },
         
     {
-      "_comment": "ο κοκκινογένης κλέφτης",
+      "name": "ο κοκκινογένης κλέφτης",
       "id": "PL00rmG2oN8Ah6jxKLjLJvskTJ93fuRO3x",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/redhead.JPG",
       "iconType": "image",
@@ -258,7 +258,7 @@
     },
     
     {
-      "_comment": "ο κοκκινογένης ψεύτης",
+      "name": "ο κοκκινογένης ψεύτης",
       "id": "PL00rmG2oN8AgM1m1FCGZRTIVim5QL-tUO",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/redhead.JPG",
       "iconType": "image",
@@ -266,7 +266,7 @@
     },
     
     {
-      "_comment": "the redhead liar",
+      "name": "the redhead liar",
       "id": "PL00rmG2oN8AimdEYXWWGh-V0tYUfBR4nr",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/redhead.JPG",
       "iconType": "image",
@@ -274,14 +274,14 @@
     },
     
     {
-      "_comment": "με το φύσημα του αέρα",
+      "name": "με το φύσημα του αέρα",
       "id": "PL00rmG2oN8AgEXs5VSwbOM_ZnIEFFqcvt",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/me%20to%20fyshma%20toy%20aera.gif",
       "iconType": "image",
       "fallback": "🎬"
     },
     {
-      "_comment": "του γραμμόφωνου τραγούδια",
+      "name": "του γραμμόφωνου τραγούδια",
       "id": "PL00rmG2oN8Ai0L3Esut97CEbhIappAekn",
       "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/tou%20grammophonou%20tragoudia.png",
       "iconType": "image",
@@ -290,23 +290,3 @@
   ]
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
