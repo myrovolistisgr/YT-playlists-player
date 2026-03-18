@@ -59,12 +59,10 @@
       background: #111;
       min-height: 0;
       overflow: hidden;
-      /* -- ΔΙΟΡΘΩΣΗ 1: Σταθεροποίηση του player -- */
       position: relative;
     }
     
     #player {
-      /* -- ΔΙΟΡΘΩΣΗ 1: Σταθεροποίηση του player -- */
       position: absolute;
       top: 0;
       left: 0;
@@ -150,7 +148,6 @@
         align-items: center;
     }
 
-    /* -- ΔΙΟΡΘΩΣΗ 2: Στυλ για την εικόνα δίπλα στον τίτλο -- */
     #current-playlist-icon {
         width: 28px;
         height: 28px;
@@ -160,6 +157,9 @@
         flex-shrink: 0;
         background: rgba(255, 255, 255, 0.1);
         border: 1px solid rgba(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .playlist-info-text {
@@ -180,7 +180,7 @@
       font-size: 13px;
       opacity: 0.9;
     }
-    /* Ενεργή playlist – πλήρης τίτλος */
+    
     .playlist-header.full-title .playlist-info {
        white-space: normal;
       overflow: visible;
@@ -472,7 +472,6 @@
       .playlist-custom-icon.fallback { font-size: 20px; }
     }
 	
-	/* Playlist drawer – πλήρης τίτλος με αναδίπλωση */
     .playlist-drawer .playlist-details {
        white-space: normal;
        overflow: visible;
@@ -507,7 +506,6 @@
       <div class="playlist-section">
         <div class="playlist-header" id="playlist-header" onclick="openPlaylistDrawer()">
           <div class="playlist-info">
-            <!-- -- ΔΙΟΡΘΩΣΗ 2: Προσθήκη του img element για το εικονίδιο -- -->
             <div id="current-playlist-icon" class="playlist-icon fallback"></div>
             <div class="playlist-info-text">
                 <h2 id="current-playlist-title">🎵 Επιλέξτε Playlist</h2>
@@ -548,15 +546,14 @@
     let currentVideoIndex = 0;
     let currentPlaylistId = '';
     let isLastVideoEnded = false;
+    let playerReady = false;
     
-    const YOUTUBE_API_KEY = 'AIzaSyAs1Tvv4WEzmBIMQrImnnC4LqHcHhspAZY'; 
+    const SCRIPT_URL = 'https://hidden-hat-e6f9.gramophono-gr.workers.dev';
     
-    // ΑΝΤΙΚΑΤΑΣΤΑΣΗ: Αφαίρεσε τον στατικό πίνακα και βάλε αυτό:
-    let availablePlaylists = []; // Αρχικά άδειο, θα γεμίσει από fetch
-
+    let availablePlaylists = [];
     let fetchedPlaylists = [];
    
-    function preventPageScroll( ) {
+    function preventPageScroll() {
       document.querySelectorAll('.player-controls button').forEach(button => {
         button.addEventListener('click', function(e) {
           e.preventDefault();
@@ -573,45 +570,53 @@
       }
     }
     
-async function initializePlayer() {
-  loadYouTubeAPI();
-  
-  // ΠΡΟΣΘΗΚΗ: Φόρτωσε πρώτα τις playlists από το εξωτερικό αρχείο
-  try {
-    const response = await fetch('https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/playlists.json');
-    const data = await response.json();
-    availablePlaylists = data.playlists || [];
-  } catch (error) {
-    console.error('Σφάλμα φόρτωσης playlists:', error);
-    // Fallback σε κενή λίστα αν αποτύχει
-    availablePlaylists = [];
-  }
-  
-  // Συνέχεια όπως πριν
-  await fetchAllPlaylistDetails();
-  renderPlaylistOptions();
-  
-  if (fetchedPlaylists.length > 0) {
-    selectPlaylist(fetchedPlaylists[0]);
-  }
-}
+    async function initializePlayer() {
+      loadYouTubeAPI();
+      
+      try {
+        const response = await fetch('https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/playlists.json');
+        const data = await response.json();
+        availablePlaylists = data.playlists || [];
+      } catch (error) {
+        console.error('Σφάλμα φόρτωσης playlists:', error);
+        availablePlaylists = [];
+      }
+      
+      // Φόρτωσε όλες τις πληροφορίες των playlists παράλληλα (γρήγορα)
+      await fetchAllPlaylistDetails();
+    }
 
     async function fetchAllPlaylistDetails() {
         const promises = availablePlaylists.map(async (p) => {
-            const url = `https://www.googleapis.com/youtube/v3/playlists?part=snippet&id=${p.id}&key=${YOUTUBE_API_KEY}`;
+            const url = `${SCRIPT_URL}?action=getPlaylistTitle&playlistId=${p.id}`;
             try {
-                const response = await fetch(url );
+                const response = await fetch(url);
                 const data = await response.json();
-                if (data.items && data.items.length > 0) {
-                    return { ...p, name: data.items[0].snippet.title };
-                }
-                return { ...p, name: "Άγνωστη Playlist" };
+                return { 
+                    ...p, 
+                    name: data.title || "Άγνωστη Playlist" 
+                };
             } catch (error) {
                 console.error(`Σφάλμα ανάκτησης για playlist ${p.id}:`, error);
                 return { ...p, name: "Αποτυχία Φόρτωσης" };
             }
         });
+        
         fetchedPlaylists = await Promise.all(promises);
+        renderPlaylistOptions();
+        
+        // Περίμενε να είναι έτοιμος ο player και μετά διάλεξε την πρώτη playlist
+        if (fetchedPlaylists.length > 0) {
+            waitForPlayerAndSelectFirst();
+        }
+    }
+    
+    function waitForPlayerAndSelectFirst() {
+        if (playerReady && youtubePlayer && typeof youtubePlayer.cueVideoById === 'function') {
+            selectPlaylist(fetchedPlaylists[0]);
+        } else {
+            setTimeout(waitForPlayerAndSelectFirst, 100);
+        }
     }
     
     function loadYouTubeAPI() {
@@ -621,7 +626,7 @@ async function initializePlayer() {
       }
       const tag = document.createElement('script');
       tag.src = 'https://www.youtube.com/iframe_api';
-      const firstScriptTag = document.getElementsByTagName('script' )[0];
+      const firstScriptTag = document.getElementsByTagName('script')[0];
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
       window.onYouTubeIframeAPIReady = function() {
         createYouTubePlayer();
@@ -635,10 +640,11 @@ async function initializePlayer() {
         videoId: '',
         events: {
           onReady: (event) => {
-              // Φόρτωση του πρώτου βίντεο της αρχικής playlist όταν ο player είναι έτοιμος
+              console.log('YouTube Player ready');
+              playerReady = true;
+              // Αν υπάρχει ήδη επιλεγμένη playlist, φόρτωσέ την
               if (currentPlaylist.length > 0) {
-                  youtubePlayer.loadVideoById(currentPlaylist[0].videoId);
-                  youtubePlayer.stopVideo();
+                  youtubePlayer.cueVideoById(currentPlaylist[0].videoId);
               }
           },
           onStateChange: (event) => {
@@ -690,24 +696,16 @@ async function initializePlayer() {
       currentPlaylistId = playlist.id;
       isLastVideoEnded = false;
       
-      // -- ΔΙΟΡΘΩΣΗ 2 & 3: Ενημέρωση τίτλου, εικονιδίου και τίτλου καρτέλας --
       document.getElementById('current-playlist-title').textContent = playlist.name;
-      document.title = playlist.name; // Ενημέρωση τίτλου καρτέλας browser
-      document
-        .getElementById('playlist-header')
-        .classList.add('full-title');
+      document.title = playlist.name;
+      document.getElementById('playlist-header').classList.add('full-title');
+      
       const iconElement = document.getElementById('current-playlist-icon');
-
       if (playlist.iconType === 'image') {
-          iconElement.innerHTML = `
-          <img src="${playlist.icon}"
-          alt="${playlist.name}"
-          class="playlist-custom-icon"
-          onerror="this.onerror=null; this.parentElement.textContent='${playlist.fallback || '🎵'}'">
-      `;
-       } else {
-       iconElement.textContent = playlist.icon || '🎵';
-    }
+          iconElement.innerHTML = `<img src="${playlist.icon}" alt="${playlist.name}" class="playlist-custom-icon" onerror="this.onerror=null; this.parentElement.textContent='${playlist.fallback || '🎵'}'">`;
+      } else {
+          iconElement.textContent = playlist.icon || '🎵';
+      }
 
       document.getElementById('current-playlist-count').textContent = 'Φόρτωση...';
       closePlaylistDrawer();
@@ -715,34 +713,30 @@ async function initializePlayer() {
     }
     
     function loadPlaylistFromYouTube(playlistId) {
-    const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${YOUTUBE_API_KEY}`;
-    fetch(url )
-        .then(response => response.json())
-        .then(data => {
-            currentPlaylist = (data.items && data.items.length > 0) ? data.items.map(item => ({
-                title: item.snippet.title,
-                videoId: item.snippet.resourceId.videoId,
-                thumbnail: item.snippet.thumbnails?.medium?.url || item.snippet.thumbnails?.default?.url || ''
-            })) : [];
-            currentVideoIndex = 0;
-            renderSongsList();
-            updatePlaylistHeader();
-            if (youtubePlayer && youtubePlayer.cueVideoById) { // Changed from loadVideoById
-                if (currentPlaylist.length > 0) {
-                    youtubePlayer.cueVideoById(currentPlaylist[0].videoId); // Changed from loadVideoById
-                } else {
-                    youtubePlayer.stopVideo();
-                    youtubePlayer.clearVideo();
+        const url = `${SCRIPT_URL}?action=getPlaylist&playlistId=${playlistId}`;
+        
+        document.getElementById('current-playlist-count').textContent = 'Φόρτωση...';
+        
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('current-playlist-title').textContent = data.playlistTitle;
+                document.title = data.playlistTitle;
+                
+                currentPlaylist = data.songs || [];
+                currentVideoIndex = 0;
+                renderSongsList();
+                updatePlaylistHeader();
+                
+                if (youtubePlayer && currentPlaylist.length > 0 && playerReady) {
+                    youtubePlayer.cueVideoById(currentPlaylist[0].videoId);
                 }
-            }
-        })
-        .catch(error => {
-            console.error('Σφάλμα φόρτωσης playlist:', error);
-            currentPlaylist = [];
-            renderSongsList();
-            updatePlaylistHeader();
-        });
-}
+            })
+            .catch(error => {
+                console.error('Σφάλμα φόρτωσης playlist:', error);
+                document.getElementById('current-playlist-count').textContent = 'Σφάλμα φόρτωσης';
+            });
+    }
     
     function updatePlaylistHeader() {
       const countElement = document.getElementById('current-playlist-count');
@@ -819,8 +813,6 @@ async function initializePlayer() {
     
     document.addEventListener('touchstart', () => {}, { passive: true });
 
-
   </script>
-
 </body>
 </html>
