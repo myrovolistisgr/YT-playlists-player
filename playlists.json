@@ -1,132 +1,131 @@
 {
   "playlists": [
-
-    
-    
     {
-       "name": "οι πελάδες",
-       "id": "PL00rmG2oN8AioqMrs0Bn2bJ9oMej-q07C",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/pelada.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
-    }, 
-    
+      "name": "Folhas caídas",
+      "id": "PL00rmG2oN8AggHOSE7-w26zlDB3Luxmmw",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/folhas%20ca%C3%ADdas.jpg",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
     {
-       "name": "η σαρμανίτσα",
-       "id": "PL00rmG2oN8AgvxfUriSlowu_9HjNdVy2j",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/sarmanitsa.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "τραγούδια για  το Μάη",
+      "id": "PL00rmG2oN8AgCutkIS_qnlB9iw8xzgazr",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/tragoudia%20gia%20to%20Mai.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-     
     {
-       "name": "Τραγούδια για τον Ιούνιο",
-       "id": "PL00rmG2oN8Aj4Tg53wtuRy6nHOnfnIRIs",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/tragoudia%20gia%20ton%20Iounio.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "σ' ακολουθώ",
+      "id": "PL00rmG2oN8AhQ4r6DNSJ6EcB5bihzx8Rl",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/s%20akoloutho%202%20metra%20makria.jpg",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-
     {
-       "name": "Τραγούδια για τον Ιούλιο",
-       "id": "PL00rmG2oN8Ajl-6-kWnoF9_sScQahWey0",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/tragoudia%20gia%20ton%20Ioulio.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "οι πελάδες",
+      "id": "PL00rmG2oN8AioqMrs0Bn2bJ9oMej-q07C",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/pelada.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-
     {
-       "name": "Τραγούδια για τον Αύγουστο",
-       "id": "PL00rmG2oN8AhQW5YlaTYtwIH5VOKA2Ii7",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/tragoudia%20gia%20ton%20Aygousto.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "η σαρμανίτσα",
+      "id": "PL00rmG2oN8AgvxfUriSlowu_9HjNdVy2j",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/sarmanitsa.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-    
     {
-       "name": "November songs",
-       "id": "PL00rmG2oN8Ai482V_BRmdfPiIp29_6H2f",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/november%20songs.jpg",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "Τραγούδια για τον Ιούνιο",
+      "id": "PL00rmG2oN8Aj4Tg53wtuRy6nHOnfnIRIs",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/tragoudia%20gia%20ton%20Iounio.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-
     {
-       "name": "ανεμελιά σε καραντίνα",
-       "id": "PL00rmG2oN8AgzcmvHlo0CSUMS3u40ryxT",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/anemelia%20se%20karantina.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "Τραγούδια για τον Ιούλιο",
+      "id": "PL00rmG2oN8Ajl-6-kWnoF9_sScQahWey0",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/tragoudia%20gia%20ton%20Ioulio.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-
-     {
-       "name": "μουσικές του κόσμου (tape 2)",
-       "id": "PL00rmG2oN8AhlqNmhyczwOkTFB27cVT7D",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/mousikes%20tou%20kosmou%202.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
-    },
-
-     
-     {
-       "name": "December songs",
-       "id": "PL00rmG2oN8AgQh0v2hB3fFY4buAb5yQVD",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/december%20songs.jpg",
-       "iconType": "image",
-       "fallback": "🎬"
-    },
-
     {
-       "name": "if only you knew...",
-       "id": "PL00rmG2oN8AhP9ue2gN4R6f6MJ0T4MAjQ",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/if%20only%20you%20knew.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "Τραγούδια για τον Αύγουστο",
+      "id": "PL00rmG2oN8AhQW5YlaTYtwIH5VOKA2Ii7",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/tragoudia%20gia%20ton%20Aygousto.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-
-
     {
-       "name": "in the country",
-       "id": "PL00rmG2oN8Aj3W862eU309_fPKZPkX1o3",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/in%20the%20country.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "November songs",
+      "id": "PL00rmG2oN8Ai482V_BRmdfPiIp29_6H2f",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/november%20songs.jpg",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-
     {
-       "name": "για καφέ στα χαλαρά",
-       "id": "PL00rmG2oN8AiSUdibdDra1sXcG4D54F8A",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/gia%20kafe%20sta%20xalara.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "ανεμελιά σε καραντίνα",
+      "id": "PL00rmG2oN8AgzcmvHlo0CSUMS3u40ryxT",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/anemelia%20se%20karantina.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-
     {
-       "name": "ελληνικά και φρέσκα (αρχές 2021)",
-       "id": "PL00rmG2oN8AhlGWU1VCt7BAbzWpg5bPg2",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/ellinika%20kai%20freska.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "μουσικές του κόσμου (tape 2)",
+      "id": "PL00rmG2oN8AhlqNmhyczwOkTFB27cVT7D",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/mousikes%20tou%20kosmou%202.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-
     {
-       "name": "take away : on, off, on, off....",
-       "id": "PL00rmG2oN8AjtJkb7FhQzxX64JVg8tJ6J",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/take%20away%20.jpg",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "December songs",
+      "id": "PL00rmG2oN8AgQh0v2hB3fFY4buAb5yQVD",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/december%20songs.jpg",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-
-   
     {
-       "name": "reflection",
-       "id": "PL00rmG2oN8Ah94OuEw0cgO_dwGoeCA4P8",
-       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/reflection.JPG",
-       "iconType": "image",
-       "fallback": "🎬"
+      "name": "if only you knew...",
+      "id": "PL00rmG2oN8AhP9ue2gN4R6f6MJ0T4MAjQ",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/if%20only%20you%20knew.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
     },
-
-
+    {
+      "name": "in the country",
+      "id": "PL00rmG2oN8Aj3W862eU309_fPKZPkX1o3",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/in%20the%20country.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
+    {
+      "name": "για καφέ στα χαλαρά",
+      "id": "PL00rmG2oN8AiSUdibdDra1sXcG4D54F8A",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/gia%20kafe%20sta%20xalara.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
+    {
+      "name": "ελληνικά και φρέσκα (αρχές 2021)",
+      "id": "PL00rmG2oN8AhlGWU1VCt7BAbzWpg5bPg2",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/ellinika%20kai%20freska.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
+    {
+      "name": "take away : on, off, on, off....",
+      "id": "PL00rmG2oN8AjtJkb7FhQzxX64JVg8tJ6J",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/take%20away%20.jpg",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
+    {
+      "name": "reflection",
+      "id": "PL00rmG2oN8Ah94OuEw0cgO_dwGoeCA4P8",
+      "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/reflection.JPG",
+      "iconType": "image",
+      "fallback": "🎬"
+    },
     {
       "name": "virtual reality",
       "id": "PL00rmG2oN8Aj_VymzdkxYfM3qLbR1bkIt",
@@ -134,7 +133,6 @@
       "iconType": "image",
       "fallback": "🎬"
     },
-
     {
       "name": "Smoker's dream",
       "id": "PL00rmG2oN8AjKZXMJ1DdN-gB6CdReo3gu",
@@ -142,103 +140,90 @@
       "iconType": "image",
       "fallback": "🎬"
     },
-
     {
       "name": "tea time",
       "id": "PL00rmG2oN8Ah4cUe3QARhPUpSrp6GWmq_",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/tea%20time.JPG",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-    
+    },
     {
       "name": "Magna Grecia",
       "id": "PL00rmG2oN8AgkeRu_3MlwKCuRgUg8Zp3w",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/magna%20grecia.jpg",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-
+    },
     {
       "name": "ο έρωτας με ρυθμούς rock",
       "id": "PL064P49tIm79RliK_gRBkeImScqwhod15",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/o%20erotas%20se%20rythmous%20rock.jpg",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-    
+    },
     {
       "name": "βρέχει ακόμα...",
       "id": "PL064P49tIm78_E-dkK5PBrvEEMFC5d5m-",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/vrexei%20akoma.jpg",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-    
+    },
     {
       "name": "Tango, Gypsy and More",
       "id": "PL00rmG2oN8Ag6enwCeI1Iy4738xesOX5w",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/tango,%20gipsy%20and%20more.jpg",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-    
+    },
     {
       "name": "lovers in the wind",
       "id": "PL00rmG2oN8Ag9ZtlNMGZqlYIqpb2LArvw",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/lovers%20in%20the%20wind.jpg",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-    
+    },
     {
       "name": "metamorphosis",
       "id": "PLSRDGXudTSm-diMH_IkP9u9pOtl3osS34",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/metamorfosis.JPG",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-    
+    },
     {
       "name": "take it easy",
       "id": "PL00rmG2oN8Ag39lNSouPmS1tX8gPovv1l",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/take%20it%20easy.JPG",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-    
+    },
     {
       "name": "in the hostel",
       "id": "PL00rmG2oN8AiYqHbpMelwrgdgc-9dem0S",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/in%20the%20hostel.JPG",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-    
+    },
     {
       "name": "κάποια χρόνια πριν...",
       "id": "PL00rmG2oN8Ah-mbeYamgxLYFh634Bdclu",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/kapoia%20xronia%20prin.JPG",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-    
+    },
     {
       "name": "μουσικές του κόσμου (tape 1)",
       "id": "PL00rmG2oN8AgLyVNiOxJ73pFH-woR3u6v",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/mousikes%20tou%20kosmou%201.JPG",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-    
+    },
     {
       "name": "Oldiesς",
       "id": "PL00rmG2oN8Ai6xn8ST0ZrPoVt1Yaz48Gb",
       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/main/anartiseis/oldies.JPG",
       "iconType": "image",
       "fallback": "🎬"
-    }, 
-    
+    },
     {
       "name": "από σούρουπο σε χάραμα",
       "id": "PL00rmG2oN8AjnEDGjA1tjWtfw8ObjdVNS",
@@ -246,7 +231,6 @@
       "iconType": "image",
       "fallback": "🎬"
     },
-        
     {
       "name": "ο κοκκινογένης κλέφτης",
       "id": "PL00rmG2oN8Ah6jxKLjLJvskTJ93fuRO3x",
@@ -254,7 +238,6 @@
       "iconType": "image",
       "fallback": "🎬"
     },
-    
     {
       "name": "ο κοκκινογένης ψεύτης",
       "id": "PL00rmG2oN8AgM1m1FCGZRTIVim5QL-tUO",
@@ -262,7 +245,6 @@
       "iconType": "image",
       "fallback": "🎬"
     },
-    
     {
       "name": "the redhead liar",
       "id": "PL00rmG2oN8AimdEYXWWGh-V0tYUfBR4nr",
@@ -270,7 +252,6 @@
       "iconType": "image",
       "fallback": "🎬"
     },
-    
     {
       "name": "με το φύσημα του αέρα",
       "id": "PL00rmG2oN8AgEXs5VSwbOM_ZnIEFFqcvt",
@@ -286,5 +267,4 @@
       "fallback": "🎧"
     }
   ]
-
 }
