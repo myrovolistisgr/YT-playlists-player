@@ -1,10 +1,14 @@
 {
   "playlists": [
 
-
-
-    
-    
+    {
+       "name": "η σαρμανίτσα",
+       "id": "PL00rmG2oN8AgvxfUriSlowu_9HjNdVy2j",
+       "icon": "https://raw.githubusercontent.com/myrovolistisgr/YT-playlists-player/5d7b3394aee3658929607505596d4975761a7db9/anartiseis/sarmanitsa.JPG",
+       "iconType": "image",
+       "fallback": "🎬"
+    },
+     
     {
        "name": "Τραγούδια για τον Ιούνιο",
        "id": "PL00rmG2oN8Aj4Tg53wtuRy6nHOnfnIRIs",
