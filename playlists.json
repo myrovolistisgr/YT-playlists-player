@@ -1,6 +1,6 @@
 {
   "playlists": [
-
+     
     {
        "name": "η σαρμανίτσα",
        "id": "PL00rmG2oN8AgvxfUriSlowu_9HjNdVy2j",
@@ -236,14 +236,6 @@
       "iconType": "image",
       "fallback": "🎬"
     }, 
-    
-    {
-      "name": "Η σαρμανίτσα",
-      "id": "PL00rmG2oN8AgvxfUriSlowu_9HjNdVy2j",
-      "icon": "https://raw.githubusercontent.com/gramophono/mvp1/main/docs/anartiseis/sarmanitsa.JPG",
-      "iconType": "image",
-      "fallback": "🎬"
-    },
     
     {
       "name": "από σούρουπο σε χάραμα",
