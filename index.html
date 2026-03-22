@@ -643,36 +643,43 @@
     }
     
     function createYouTubePlayer() {
-      youtubePlayer = new YT.Player('player', {
-        height: '100%',
-        width: '100%',
-        videoId: '',
-        events: {
-          onReady: (event) => {
-              console.log('YouTube Player ready');
-              playerReady = true;
-              if (currentPlaylist.length > 0) {
-                  youtubePlayer.cueVideoById(currentPlaylist[0].videoId);
-              }
-          },
-          onStateChange: (event) => {
-            if (event.data === YT.PlayerState.ENDED) {
-              if (currentVideoIndex === currentPlaylist.length - 1) {
-                isLastVideoEnded = true;
-              } else {
-                setTimeout(playNextVideo, 100);
-              }
-            }
-            if (event.data === YT.PlayerState.PLAYING) isLastVideoEnded = false;
-          },
-          onError: (error) => {
-            console.error('YouTube Player error:', error);
-            if (currentVideoIndex < currentPlaylist.length - 1) playNextVideo();
+  youtubePlayer = new YT.Player('player', {
+    height: '100%',
+    width: '100%',
+    videoId: '',
+    events: {
+      onReady: (event) => {
+          console.log('YouTube Player ready');
+          playerReady = true;
+          if (currentPlaylist.length > 0) {
+              youtubePlayer.cueVideoById(currentPlaylist[0].videoId);
           }
-        },
-        playerVars: { autoplay: 0, controls: 1, rel: 0, modestbranding: 1, fs: 1 }
-      });
+      },
+      onStateChange: (event) => {
+        if (event.data === YT.PlayerState.ENDED) {
+          if (currentVideoIndex === currentPlaylist.length - 1) {
+            isLastVideoEnded = true;
+          } else {
+            setTimeout(playNextVideo, 100);
+          }
+        }
+        if (event.data === YT.PlayerState.PLAYING) isLastVideoEnded = false;
+      },
+      onError: (error) => {
+        console.error('YouTube Player error:', error);
+        if (currentVideoIndex < currentPlaylist.length - 1) playNextVideo();
+      }
+    },
+    playerVars: { 
+      autoplay: 0, 
+      controls: 1, 
+      rel: 0, 
+      modestbranding: 1, 
+      fs: 1,
+      origin: window.location.origin  // ← Δυναμικό origin
     }
+  });
+}
     
     function renderPlaylistOptions() {
       const container = document.getElementById('playlist-options');
